@@ -1,0 +1,184 @@
+@media (min-width:320px) and (max-width:575px){
+  .logo_img{
+    width: 122px;
+  }
+  .title {
+    font-size: 14.67px;
+    line-height: 91%;
+    
+}
+.banner_left p {
+    font-size: 15px;
+    line-height: 142%;
+}
+.banner_btn {
+    font-size: 13.33px;
+    font-weight: 400;
+    padding: 8px 12px;
+    
+}
+.banner_img {
+    width: 100% !important;
+    height: auto;
+    margin-top: 50px;
+    
+}
+.exp_title h4 {
+    font-size: 18.333px;
+}
+.exp_title h2 {
+    font-size: 34px;
+}
+.exp_div {
+    width: 100%;
+   
+}
+.exp_div h3 {
+    font-size: 18px;
+}
+.exp_div p {
+    font-size: 17.333px;
+    width: 100%;
+}
+.about_img {
+    width: 100%;
+}
+.about_div h4 {
+    font-size: 27px;
+}
+.about_div h6 {
+    font-size: 14px;
+    line-height: 100%;
+}
+.about_div p {
+    font-size: 17px;
+    line-height: 100%;
+}
+.d1 h4 {
+    font-size: 15.333px;
+}
+.d1 h2 {
+    font-size: 28px;
+    line-height: 100%;
+}
+.port_btn {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 19px;
+    padding-bottom: 13px;
+    padding-left: 80px;
+    background: #E62872;
+    border-radius: 13px;
+    width: 100%;
+    transition: .4s;
+}
+.crd_img1 {
+    width: 100%;
+}
+.card_main h3 {
+    font-size: 19px;
+}
+.card_main p {
+    font-size: 16.333px;
+    line-height: 119%;
+}
+.test_title h3 {
+    font-size: 16.333px;
+}
+.test_title h2 {
+    font-size: 35px;
+    line-height: 109%;
+}
+.star_img{
+    width: 100%;
+}
+.test_main p {
+    font-size: 14.333px;
+    line-height: 132%;
+    width: 100%;
+}
+.avater_img{
+width: 100%;
+}
+.t_div2 h5 {
+    font-size: 13.333px;
+}
+.con_title h6 {
+    font-size: 17.333px;
+}
+.con_title h3 {
+    font-size: 30px;
+}
+.con_title p {
+    font-size: 14px;
+}
+.sub_div h4 {
+    font-size: 15.333px;
+    margin-left: 0;
+}
+.input {
+    width: 100%;
+    height: 40px;
+}
+.input3 {
+    width: 100%;
+    height: 40px;
+}
+.input_2 {
+    width: 100%;
+    height: 65px;
+}
+.suv_title {
+    font-size: 16.333px;
+    margin-left: 0;
+}
+.amit2 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+.chek_title {
+    font-size: 14.667px;
+    line-height: 100%;
+}
+.chek_box {
+    margin-left: 41px;
+}
+.cont_btn {
+    font-size: 14.333px;
+    padding: 10px 38px;
+}
+.logo_img2{
+    width: 122px;
+}
+.post::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #282938;
+    position: absolute;
+    top: 163px;
+    left: 0;
+}
+.flex4 h2 {
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 7.667px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 8px !important;
+}
+.f_d1 {
+    margin-left: 43px;
+}
+.title {
+    width: 100%;
+}
+}

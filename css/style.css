@@ -1,0 +1,649 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ======================common css=================== */
+.container {
+    max-width: 1750px;
+}
+
+/* ========================common css end================ */
+/* ===========================nav start==================== */
+.hover {
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-right: 43px;
+}
+
+.hover:hover {
+    color: #5E3BEE;
+}
+
+.nav_btn {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 18px 30px;
+    border: 2px solid #5E3BEE;
+    transition: .4s;
+}
+
+.nav_btn:hover {
+    background: #5E3BEE;
+    color: #fff;
+}
+
+/* ===========================nav end======================== */
+/* =============================banner start===================== */
+#banner {
+    background: #F5FCFF;
+    padding: 133px 0;
+}
+
+.banner_left h6 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+
+}
+
+.title {
+    font-size: 74.67px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #282938;
+    width: 790px;
+}
+
+span {
+    color: #5E3BEE;
+}
+
+.banner_left p {
+    color: var(--Body, #1C1E53);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 21px;
+}
+
+.banner_img {
+    width: 917px;
+    height: 729px;
+}
+
+.amit {
+    align-items: center;
+}
+
+.banner_btn {
+    text-decoration: none;
+    font-size: 21.33px;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 19px 25px;
+    border: 2px solid #5E3BEE;
+    border-radius: 6px;
+    color: #5E3BEE;
+    margin-top: 54px;
+    display: inline-block;
+    transition: .4s;
+}
+
+.banner_btn:hover {
+    background-color: #5E3BEE;
+    color: #FFF;
+}
+
+/* ============================banner end============================== */
+/* ============================Expertise start========================= */
+#expertise {
+    margin-top: 148px;
+
+}
+
+.exp_title h4 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+
+}
+
+.exp_title h2 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 22px;
+}
+
+.exp_div {
+    width: 405px;
+    height: 370px;
+    background: #F5FCFF;
+    transition: .4s;
+    margin-top: 106px;
+}
+
+.exp_div::after {
+    content: '';
+    width: 0px;
+    height: 4px;
+    background: #5E3BEE;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.exp_div:hover::after {
+    width: 405px;
+}
+
+
+.exp_div h3 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    margin-top: 32px;
+
+}
+
+.exp_div p {
+    color: var(--Body, #1C1E53);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 331px;
+    margin-top: 21px;
+}
+
+
+/* =============================Expertise end========================= */
+/* ============================About start=============================== */
+#about {
+    margin-top: 260px;
+
+}
+
+.about_img {
+    width: 813px;
+}
+
+.about_div h5 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 32px */
+}
+
+.about_div h4 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 32px;
+
+}
+
+.about_div h6 {
+    color: var(--Body, #1C1E53);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.about_div p {
+    color: var(--Body, #1C1E53);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 50px;
+
+}
+
+.postion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ============================About end=================================== */
+/* =============================Portfolio start=========================== */
+#Portfolio {
+    margin-top: 200px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d1 h4 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+
+}
+
+.d1 h2 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+
+}
+
+.port_btn {
+    color: #FFF;
+    ;
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 76px;
+
+    background: #E62872;
+    border-radius: 13px;
+    width: 251px;
+    transition: .4s;
+}
+
+.btn_postion {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 21px;
+    left: 27px;
+}
+
+.crd_img1 {
+    width: 554px;
+}
+
+.card_main h3 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    margin-top: 36px;
+}
+
+.card_main p {
+    color: var(--Body, #1C1E53);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 36px;
+}
+
+.car_btn2 {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 18.667px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-top: 32px;
+
+}
+
+.icon2 {
+    margin-left: 20px;
+}
+
+.card_main {
+    margin-top: 106px;
+}
+
+.card_main {
+    position: relative;
+}
+
+.card_btn3::after {
+    content: '';
+    width: 169px;
+    height: 2px;
+    background: #2711d3;
+    position: absolute;
+    top: 662px;
+    left: 10px;
+}
+
+.card_main {
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.75);
+    padding-bottom: 20px;
+    padding-left: 8px;
+    border-radius: 8px;
+}
+
+/* =============================Portfolio end============================== */
+/* ==============================testimonials start================== */
+#testimonials {
+    margin-top: 300px;
+    background: #F5FCFF;
+    padding: 149px 0;
+}
+
+.test_title h3 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.test_title h2 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 21px;
+}
+
+.test_main p {
+    color: var(--Body, #1C1E53);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 42px;
+    width: 469px;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.t_div2 h5 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+
+}
+
+.t_div2 h6 {
+    color: var(--Body, #1C1E53);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 32px */
+}
+
+.t_div2 {
+    margin-left: 21px;
+}
+
+.test_main {
+    border-radius: 8px;
+    border: 2px solid#006B6A;
+    padding: 42px 42px;
+    margin-top: 106px;
+}
+
+/* ==============================testimonials end================= */
+/* ==============================Contact end====================== */
+#Contact {
+    margin-top: 347px;
+    margin-bottom: 250px;
+}
+
+.contact_main {
+    text-align: center;
+
+}
+
+.con_title h6 {
+    color: var(--Heading-color, #282938);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 32px */
+}
+
+.con_title h3 {
+    color: var(--Heading-color, #282938);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 21px;
+}
+
+.con_title p {
+    color: var(--Body, #1C1E53);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 32px;
+}
+
+.amit2 {
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_div h4 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: -393px;
+    /* 32px */
+}
+
+.suv_title {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: -393px;
+    margin-top: 32px;
+}
+
+.input {
+    width: 496px;
+    height: 64px;
+}
+
+.massge_box {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 32px;
+    margin-left: -933px;
+
+}
+
+.input_2 {
+    width: 1024px;
+    height: 240px;
+}
+
+.input3 {
+    width: 1024px;
+    height: 64px;
+}
+
+.massge_box3 {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 32px;
+    margin-left: -884px;
+}
+
+.input_2::placeholder {
+    color: var(--neutral-dark-gray, #505050);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    /* 32px */
+}
+
+.chek_box {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 322px;
+
+}
+
+.chek_title {
+    color: var(--Heading-color, #282938);
+    font-family: Roboto;
+    font-size: 18.667px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 10px;
+}
+
+.cont_btn {
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    background: #5E3BEE;
+    padding: 18px 51px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+/* ================================Contact end===================== */
+/* =================================fotter start====================== */
+#fotter {
+ 
+}
+
+.socil_img {
+    width: 300px;
+}
+
+.post::after {
+    content: '';
+    width: 1749px;
+    height: 2px;
+    background: #282938;
+    position: absolute;
+    top: 163px;
+    left: 79px;
+}
+
+.flex4 {
+    display: flex;
+    margin-top: 150px;
+}
+
+.flex4 h2 {
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 18.667px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 32px;
+   
+}
+.f_d1{
+    margin-left: 1034px;
+}
+.left{
+    margin-left: 83px !important;
+}
+#fotter{
+    background: #F5FCFF;
+    padding: 110px 0;
+}
+
+/* ==================================fotter end========================== */
